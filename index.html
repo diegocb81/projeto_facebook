@@ -59,6 +59,44 @@
                     </div><!--w100-->
 
                     <div class="w100">
+                        <h2>Data de nascimento</h2>
+                        <select name="nascimento-dia" class="nascimento">
+                            <?php
+                                    for($i = 1; $i <= 31; $i++){
+                            ?>                          
+                            <option value="<?php echo $1; ?>"><?php echo $i; ?></option>
+                            <?php } ?>
+                        </select>
+                        <select name="nascimento-mes" class="nascimento">
+                            <option value="1">Janeiro</option>
+                        </select>
+                        <select name="nascimento-ano" class="nascimento">
+                            <?php
+                                    for($i = 1900; $i <= 2020; $i++){
+                            ?>
+                            <option value="<?php echo $1; ?>"><?php echo $i; ?></option>
+                            <?php } ?>       
+                        </select>
+                        <div class="clear"></div>
+                    </div><!--w100-->
+
+                    <div class="w100">
+                        <div class="input-radio">
+                            <input type="radio" name="sexo" value="feminino">
+                            <h2>Feminino</h2>                  
+                        </div><!--radio-->
+                        <div class="input-radio">
+                            <input type="radio" name="sexo" value="masculino">
+                            <h2>Masculino</h2>
+                        </div><!--radio-->    
+                        <div class="input-radio">
+                            <input type="radio" name="sexo" value="personalizado">
+                            <h2>Personalizado</h2>
+                        </div><!--radio-->
+                        <div class="clear"></div>
+                    </div>
+
+                    <div class="w100">
                         <input type="submit" name="acao" value="Cadastre-se">    
                     </div><!--w100-->
 
@@ -70,6 +108,27 @@
             <div class="clear"></div>
         </div><!--center-->
     </section><!--main-->
+
+    <section class="linguas">
+        <div class="center">
+            <a class="selected-lingua" href="#">Português (Brasil)</a>
+            <a href="#">English (US)</a>
+            <a href="#">Español</a>
+            <a href="#">Français (France)</a>
+            <a href="#">Italiano</a>
+            <a href="#">Deutsch</a>
+        </div ><!--center-->
+        <div style="border:0;padding-top: 10px;" class="center">
+            <a href="#">Cadastre-se</a>
+            <a href="#">Entrar</a>
+            <a href="#">Messenger</a>
+            <a href="#">Facebook Lite</a>
+            <a href="#">Watch</a>
+            <a href="#">Pessoas</a>
+            <a href="#">Páginas</a>
+
+        </div><!--center-->
+    </section><!--linguas-->
     
 </body>
 </html>
