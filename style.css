@@ -185,3 +185,16 @@ section.linguas .center{
     padding-left: 8px;
     padding-right: 8px;
 }
+
+@media screen and (max-width: 768px){
+    .logo{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    form.form-login{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+}
