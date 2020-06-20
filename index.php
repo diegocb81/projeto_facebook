@@ -58,28 +58,28 @@
                             <?php
                                     for ($i = 1; $i < 31; $i++){
                             ?>                          
-                                <option value="<?php echo $1; ?>"><?php echo $i; ?></option>
-                            <?php } ?>
+                                <option value="<?php echo $i; ?>">?php echo $i; ><option>
+                            ?php } ?>
                         </select>
                         <select name="nascimento-mes" class="nascimento" id="data">
                             <option value="1">Janeiro</option>
                             <option value="2">Fevereiro</option>
-                            <option value="1">Março</option>
-                            <option value="1">Abril</option>
-                            <option value="1">Maio</option>
-                            <option value="1">Junho</option>
-                            <option value="1">Julho</option>
-                            <option value="1">Agosto</option>
-                            <option value="1">Setembro</option>
-                            <option value="1">Outubro</option>
-                            <option value="1">Novembro</option>
-                            <option value="1">Dezembro</option>
+                            <option value="3">Março</option>
+                            <option value="4">Abril</option>
+                            <option value="5">Maio</option>
+                            <option value="6">Junho</option>
+                            <option value="7">Julho</option>
+                            <option value="8">Agosto</option>
+                            <option value="9">Setembro</option>
+                            <option value="10">Outubro</option>
+                            <option value="11">Novembro</option>
+                            <option value="12">Dezembro</option>
                         </select>
                         <select name="nascimento-ano" class="nascimento" id="data">
                             <?php
                                     for ($i = 1900; $i <= 2020; $i++){
                             ?>
-                            <option value="<?php echo $i; ?>"><?php echo $i; ?></option>
+                                <option value="<?php echo $i; ?>"><?php echo $i; ?></option>
                             <?php } ?>       
                         </select>
                     </div><!--w100-->
