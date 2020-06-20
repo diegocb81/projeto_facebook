@@ -56,10 +56,10 @@
                         <h3>Data de nascimento</h3>
                         <select name="nascimento-dia" class="nascimento" id="data">
                             <?php
-                                    for ($i = 1; $i < 31; $i++){
+                                    for ($i = 1; $i < 31 ; $i++){
                             ?>                          
-                                <option value="<?php echo $i; ?>">?php echo $i; ><option>
-                            ?php } ?>
+                                <option value="<?php echo $i; ?>"><?php echo $i; ?></option>
+                            <?php } ?>
                         </select>
                         <select name="nascimento-mes" class="nascimento" id="data">
                             <option value="1">Janeiro</option>
