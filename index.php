@@ -4,7 +4,7 @@
 <head>
     <title>Login Facebook</title>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" type="image-x/png" href="images/icone.ico">
+    <link rel="shortcut icon" type="image-x/png" href="images/icone.ico"> <!--icon created by flaticon/freepik-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=5.0">
     <link rel="stylesheet" href="style.css">
